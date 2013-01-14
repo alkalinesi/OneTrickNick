@@ -1,0 +1,407 @@
+/*
+Cafe Vincze CSS
+Version: 1.0
+Last Revision: Saturday, 21 May, 2011
+
+/*----- Color Palette -----
+Mustard Yellow - #ca9e3f
+Tomato Red - #a30000
+Vine Green - #3b6517
+Forest Green - #334b1a
+Mint Green - #8cb84d
+Stove Grey - #362f2d
+Stone Grey - #b9ae9e
+Wood Brown - #603819
+*/
+
+
+
+
+
+body {
+		   font-size: 12px;
+		   font-family: Tahoma, Ariel, sans-serif;
+		   line-height: 1.4;
+		   background-color: #ca9e3f;
+		   margin: 0;
+		   }
+ul {
+		   font-size: 24px;
+		   font-family: Georgia, Times, "Times New Roman", Serif;
+		   list-style: none;
+		   font-weight: bold;
+		   line-height: 2;
+		   
+		   }
+		   
+		   /*----- Typography -----*/
+h1 {
+		   color: #a30000;
+		   }
+h2 {
+		   color: #3b6517;
+		   
+		   
+		   }
+h3 {
+		   color: #8cb84d;
+		   }
+h4 {
+		   color: #603819;
+		   
+		   }
+		
+dt {
+		   font-weight: bold;
+		   }
+		   
+		   /*----- Lists -----*/
+li a {
+		   text-decoration: none;
+		   }
+li a:link {
+		     color: #362f2d;
+		     }
+li a:visited {
+		     color: #603819;
+		     }
+li a:hover {
+		     color: #ca9e3f;
+		     }
+li a:active {
+		     color: #a30000;
+		     }
+dt {
+		     font-weight: bold;
+		     }
+		     
+		     /*-----id rules-----*/
+		     
+#container {
+	         width: 960px;
+	         margin: 0 auto;
+	         }
+#main_content {
+	         margin: 0 25px 0 75px;
+	         float: left;
+	         
+	         }
+#footer {
+	         margin: 0 0 70px 0;
+	         clear: both;
+	         background-image: url(../index/pages/images/footer_bg.png);
+	         background-repeat: no-repeat;
+	         height: 86px;
+	         }
+#footer p {
+			 font-size: 10px;
+			 padding-top: 85px;
+			 text-align: center;
+			 }
+	         /*----- Header -----*/
+#header {
+			background-image: url(../index/pages/images/header_bg.jpg); 
+			background-repeat: no-repeat;
+			width: 960px;
+			height: 280px;
+			text-indent: -9999px;
+			}
+#header h1 {
+			margin: 0;
+			}
+
+#nav li a {
+			background-image: url(../index/pages/images/navigation.png);
+			background-repeat: no-repeat;
+			position: relative;
+			bottom: -150px;
+			left: 60px;
+			float: left;
+			padding-right: 80px;
+			display: block;
+			text-indent: -9999px;
+			height: 50px;
+			width: 75px;
+			}
+#nav #home a {
+			background-position: 0 0;
+			}
+#nav #menu a {
+			background-position: -155px 0;
+			}
+#nav #location a {
+			background-position: -310px 0;
+			}
+#nav #contact a {
+			background-position: -470px 0;
+			}
+#nav #gallery a {
+			background-position: -620px 0;
+			}
+#nav #home a:hover {
+			background-position: 0 -53px;
+			}
+#nav #menu a:hover {
+			background-position: -155px -53px;
+			}
+#nav #location a:hover {
+			background-position: -310px -53px;
+			}
+#nav #contact a:hover {
+			background-position: -470px -53px;
+			}
+#nav #gallery a:hover {
+			background-position: -620px -53px;
+			}
+			
+			
+			
+			
+			/*----- Banners -----*/
+			
+.welcome_banner {
+			background-image: url(../index/pages/images/welcome-h2.jpg);
+			background-repeat: no-repeat;
+			width: 420px;
+			height: 44px;
+			text-indent: -9999px;
+			}
+.menu_banner {
+			background-image: url(../index/pages/images/menu-h2.jpg);
+			background-repeat: no-repeat;
+			width: 248px;
+			height: 44px;
+			text-indent: -9999px;
+			}
+.location_banner {
+			background-image: url(../index/pages/images/location-h2.jpg);
+			background-repeat: no-repeat;
+			width: 200px;
+			height: 44px;
+			text-indent: -9999px;
+			}
+.contact_banner {
+			background-image: url(../index/pages/images/contact-h2.jpg);
+			background-repeat: no-repeat;
+			width: 194px;
+			height: 44px;
+			text-indent: -9999px;
+			}
+.hours_banner {
+			background-image: url(../index/pages/images/hours.jpg);
+			background-repeat: no-repeat;
+			width: 95px;
+			height: 34px;
+			text-indent: -9999px;
+			}
+.gallery_banner {
+			background-image: url(../index/pages/images/gallery-h2.jpg);
+			background-repeat: no-repeat;
+			width: 277px;
+			height: 44px;
+			text-indent: -9999px;
+			}
+			
+	         
+	         /*----- Home Page-----*/
+	         
+#welcome_content {
+			 width: 535px;
+			 }
+#welcome_content img {
+			 border: 1px solid #b9ae9e;
+			 display: block;
+			 margin: 0 auto;
+			 width: 380px;
+			 }
+			 
+
+	         
+	         /*-----sidebar-----*/
+#sidebar{
+			width: 270px;
+			float: right;
+			position: relative;
+			bottom: -30px;
+			left: -80px;
+			
+			}
+#sidebar h4 {
+			background-image: url(../index/pages/images/sidebar_top_bg.png);
+			background-repeat: no-repeat;
+			width: 270px;
+			height: 87px;
+			margin: 0;
+			text-indent: -9999px;
+			 
+			 }
+#sidebar dl {
+			background-image: url(../index/pages/images/sidebar_title_bg.png);
+			background-repeat: repeat-y;
+			margin: 0;
+			color: #fff;
+			padding: 30px 30px 0 30px;
+			}
+#sidebar dt {
+			border-top: 1px solid #334b1a;
+			padding-top: 20px;
+			}
+#sidebar dd {
+			margin: 0;
+			}
+#sidebar .price {
+			color: #ca9e3f;
+			font-style: italic;
+			padding: 15px 0;
+			}
+#sidebar p {
+			background-image: url(../index/pages/images/sidebar_bottom_bg.png);
+			background-repeat: no-repeat;
+			width: 270px;
+			height: 90px;
+			margin: 0;
+			text-align: center;
+			}
+#sidebar a:link {
+			color: #fff;
+			}
+#sidebar a:visited {
+			color: #fff;
+			}
+#sidebar a:hover {
+			color: #ca9e3f;
+			}
+#sidebar a:active {
+			color: #ca9e3f;
+			}
+
+    
+
+    
+	
+
+	         
+	         
+	         /*-----Menu-----*/
+.menu_content {
+	         width: 350px;
+	         text-align: center;
+	         float: left;
+	         padding-right: 70px;
+	         }
+
+			 
+			 
+			 
+.menu_content dd {
+			margin: 0;
+			
+			}
+.menu_content .menu_price {
+			font-style: italic;
+			margin: 15px 0 45px 0;
+			}
+			
+	         
+	         /*-----Gallery images-----*/
+	         
+.gallery_photos {
+			list-style: none;
+			}
+.gallery_photos img {
+			border: none;
+			}
+.gallery_photos li {
+			margin: 0 0 27px 0;
+			float: left;
+			padding-right: 20px;
+			}
+.gallery_photos li a {
+			display: block;
+			width: 99px;
+			height: 99px;
+		    }
+.gallery_photos li a:link {
+			border: 3px solid #b9ae9e;
+			}
+.gallery_photos li a:visited {
+			border: 3px solid #b9ae9e;
+			}
+.gallery_photos li a:hover {
+			border: 3px solid #a30000;
+			}
+.gallery_photos li a:active {
+			border: 3px solid #a30000;
+			}
+			
+			/*----- Location -----*/
+#location_content {
+			width: 400px;
+			float: left;
+			margin-right: 20px;
+			}
+#location_content h3 {
+			margin-top: 25px;
+			}
+#main_content_location {
+			margin-right: 50px;
+			position: relative;
+			left: 90px;
+			}
+.map img {
+			border: 1px solid #b9ae9e;
+			width: 375px;
+			margin-top: 80px;
+			}
+			/*----- Contacts/Table -----*/
+table {
+			text-indent: 20px;
+			border-collapse: collapse;
+			font-size: 14px;
+			float: left;
+			}
+tr {	
+			background-color: #e5e0ce;
+			}
+.dif_shade {
+			background-color: #ccc7b7
+			}
+
+th, td {
+			padding: 0 3px 3px 0;
+			border: 2px solid #fff9e6;
+			width: 190px;
+			height: 30px;
+			}
+th {
+			font-weight: normal;
+			text-align: left;
+			}
+			
+			/*----- Form -----*/
+#contact_form {
+			float: left;
+			padding-right: 40px;
+			}
+#hours_div {
+			float: right;
+			}
+
+form {
+			float: left;
+			}
+form dd {
+			margin:0;
+			padding-bottom: 15px;
+			}
+form dt {
+			font-weight: normal;
+			}
+
+			
+			/*----- Background-----*/
+#container {
+			background-image: url(../index/pages/images/background1.jpg);
+			background-repeat: repeat-y;
+			}
+	 
